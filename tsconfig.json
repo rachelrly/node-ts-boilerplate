@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "removeComments": true,
+    "rootDir": ".",
+    "outDir": "dist",
+    "sourceMap": true
+  },
+  "include": ["src/**/*", "tests/**/*", "tests/jest.config.ts"],
+  "exclude": ["node_modules"]
+}
