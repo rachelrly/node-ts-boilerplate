@@ -19,10 +19,8 @@ All dependecies included in this boilerplate are dev dependencies
 
 1. Clone this repo
 
-2. Remove git history with `rm -rf git && git init`
+2. Reset git history and update dependencies with `bash reset.sh`
 
-3. Run `npm install`
+3. Start the dev server with `npm run dev`. This will compile the TS and hot refresh because it uses Nodemon.
 
-4. Start the dev server with `npm run dev`. This will compile the TS and hot refresh because it uses Nodemon.
-
-5. Run the tests with `npm run test`, which will compile the TS and run tests.
+4. Run the tests with `npm run test`, which will compile the TS and run tests.
